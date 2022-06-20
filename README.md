@@ -167,7 +167,7 @@ Run a tts and a vocoder model from the released model list. (Simply copy and pas
 tts --text "Text for TTS" \
     --model_name "<type>/<language>/<dataset>/<model_name>" \
     --vocoder_name "<type>/<language>/<dataset>/<model_name>" \
-    --out_path folder/to/save/output/
+    --out_path folder/to/save/output/speech.wav
 ```
 
 Run your own TTS model (Using Griffin-Lim Vocoder)
@@ -240,7 +240,7 @@ This repository is governed by Mozilla's code of conduct and etiquette guideline
 2. Implement your changes.
 3. (if applicable) Add [Google Style](https://google.github.io/styleguide/pyguide.html#381-docstrings) docstrings.
 4. (if applicable) Implement a test case under ```tests``` folder.
-5. (Optional but Prefered) Run tests. 
+5. (Optional but Prefered) Run tests.
 ```bash
 ./run_tests.sh
 ```
@@ -250,8 +250,8 @@ pip install pylint cardboardlint
 cardboardlinter --refspec master
 ```
 7. Send a PR to ```dev``` branch, explain what the change is about.
-8. Let us discuss until we make it perfect :). 
-9. We merge it to the ```dev``` branch once things look good. 
+8. Let us discuss until we make it perfect :).
+9. We merge it to the ```dev``` branch once things look good.
 
 Feel free to ping us at any step you need help using our communication channels.
 
